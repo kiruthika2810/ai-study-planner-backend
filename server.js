@@ -152,6 +152,8 @@ app.get("/task/:id", async (req, res) => {
 
 /* ---------------- UPDATE TASK API ---------------- */
 
+/* ---------------- UPDATE TASK API ---------------- */
+
 app.put("/update-task/:id", async (req, res) => {
 
     try {
@@ -159,7 +161,9 @@ app.put("/update-task/:id", async (req, res) => {
         const updatedTask = await Task.findByIdAndUpdate(
 
             req.params.id,
+
             req.body,
+
             { new: true }
 
         );
@@ -194,6 +198,8 @@ app.put("/update-task/:id", async (req, res) => {
     }
 
 });
+
+/* ---------------- DELETE TASK API ---------------- */
 
 /* ---------------- DELETE TASK API ---------------- */
 
