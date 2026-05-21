@@ -18,6 +18,7 @@ app.use(cors());
 mongoose.connect(
     "mongodb://kiruthikak2024_db_user:kiruthika281007@ac-yzhrevx-shard-00-00.umashc1.mongodb.net:27017,ac-yzhrevx-shard-00-01.umashc1.mongodb.net:27017,ac-yzhrevx-shard-00-02.umashc1.mongodb.net:27017/aiStudyPlanner?ssl=true&replicaSet=atlas-af77v9-shard-0&authSource=admin&appName=Cluster0"
 )
+
 .then(() => {
 
     console.log("MongoDB Connected");
