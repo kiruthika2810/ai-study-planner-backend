@@ -36,6 +36,12 @@ GET /tasks
 
 GET /task/:id
 
+## API Documentation
+
+Swagger UI Documentation:
+
+https://ai-study-planner-backend-dtig.onrender.com/api-docs
+
 ## Deployment
 
 Live URL:
